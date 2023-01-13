@@ -1,9 +1,9 @@
 ```
 class Box{
- int l{},b{},h{};
+ int l{},b{},h{}; // default Intialization
  
  public:
-    Box(){l = 0;b=0;h=0;};
+    Box(){};
     Box(int,int,int);
     Box(Box const &oldBox){
        l = oldBox.l;
